@@ -1,0 +1,24 @@
+{
+  "case_study": "Bologna-grounded demographic sensitivity scenario",
+  "pharmacy_snapshot_date": "2026-07-21",
+  "population_year": 2024,
+  "listed_pharmacies": 125,
+  "districts": 6,
+  "residents": 392044,
+  "age_65_plus": 95962,
+  "source_urls": {
+    "pharmacies": "https://opendata.comune.bologna.it/explore/dataset/farmacie/",
+    "population": "https://opendata.comune.bologna.it/explore/dataset/popolazione-residente-per-eta-sesso-cittadinanza-quartiere-zona-area-statistica-/",
+    "districts": "https://opendata.comune.bologna.it/explore/dataset/quartieri-di-bologna/export/"
+  },
+  "source_sha256": {
+    "farmacie_bologna.csv": "f154404102e52a277dc6d10cf08e97048511a9d28209ed2caa50af299ee6ecdd",
+    "popolazione.csv": "0d80d58585e6e0b8656878693196bb43bec7e40d354cc5757c2db663bd61477d",
+    "quartieri.geojson": "a10b7f8f0ab6b1f45881cd8757b5162c882142ef1ec3cd5d39bc643b6c3e9c2b"
+  },
+  "limitations": [
+    "The municipal pharmacy list is not a night-duty schedule.",
+    "Age 65+ population is a sensitivity proxy, not observed demand.",
+    "Worker availability, preferences, and home districts are synthetic."
+  ]
+}

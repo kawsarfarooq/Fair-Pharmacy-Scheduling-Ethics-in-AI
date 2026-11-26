@@ -1,0 +1,3 @@
+experiment,solver,seconds,messages,hard_violations,preference_cost,workload_var,workload_max,workload_min_active,jain_index,district_gini,global_utility
+E5,maxsum,5.72,930560,0,0,0.22222222222222224,5,4,0.98989898989899,0.025793650793650806,-208.0
+E5,centralised,1.52,0,0,0,0.22222222222222224,5,4,0.98989898989899,0.025490196078431386,-208.0

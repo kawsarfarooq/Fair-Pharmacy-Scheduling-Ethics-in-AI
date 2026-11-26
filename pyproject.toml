@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fair-scheduling"
+version = "0.2.0"
+description = "Trustworthy pharmacy scheduling with exact optimisation and comparative audits"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "ortools>=9.10,<10", "matplotlib>=3.8", "pandas>=2.0"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

@@ -1,0 +1,626 @@
+seed,worker,technique,seconds,size,global_feasibility_agreement,stability,audience,status,faithful,minimal
+0,0.0,local,9.819993283599615e-05,2,True,1.0,worker; fixed-rota scope,,,
+0,0.0,counterfactual,0.019841600093059242,8,,0.5833333333333334,manager / worker appeal,OPTIMAL,True,
+0,0.0,conflict,0.008242399897426367,0,,1.0,manager / policy owner,OPTIMAL,True,False
+0,1.0,local,9.819993283599615e-05,2,True,1.0,worker; fixed-rota scope,,,
+0,1.0,counterfactual,0.01351059996522963,8,,0.6363636363636364,manager / worker appeal,OPTIMAL,True,
+0,1.0,conflict,0.00649110006634146,0,,1.0,manager / policy owner,OPTIMAL,True,False
+0,2.0,local,9.819993283599615e-05,2,True,1.0,worker; fixed-rota scope,,,
+0,2.0,counterfactual,0.013807500014081597,7,,0.5833333333333334,manager / worker appeal,OPTIMAL,True,
+0,2.0,conflict,0.00639170000795275,0,,1.0,manager / policy owner,OPTIMAL,True,False
+0,3.0,local,9.819993283599615e-05,2,True,1.0,worker; fixed-rota scope,,,
+0,3.0,counterfactual,0.014140699990093708,11,,0.8461538461538461,manager / worker appeal,OPTIMAL,True,
+0,3.0,conflict,0.007041399949230254,0,,1.0,manager / policy owner,OPTIMAL,True,False
+0,4.0,local,9.819993283599615e-05,3,True,1.0,worker; fixed-rota scope,,,
+0,4.0,counterfactual,0.004053200013004243,0,,,manager / worker appeal,INFEASIBLE,,
+0,4.0,conflict,0.007262600003741682,1,,1.0,manager / policy owner,INFEASIBLE,True,True
+0,5.0,local,9.819993283599615e-05,3,False,1.0,worker; fixed-rota scope,,,
+0,5.0,counterfactual,0.013894599978812039,10,,0.6923076923076923,manager / worker appeal,OPTIMAL,True,
+0,5.0,conflict,0.006493599968962371,0,,1.0,manager / policy owner,OPTIMAL,True,False
+0,6.0,local,9.819993283599615e-05,3,False,1.0,worker; fixed-rota scope,,,
+0,6.0,counterfactual,0.014562300057150424,12,,0.5384615384615384,manager / worker appeal,OPTIMAL,True,
+0,6.0,conflict,0.00632489996496588,0,,1.0,manager / policy owner,OPTIMAL,True,False
+0,7.0,local,9.819993283599615e-05,3,False,1.0,worker; fixed-rota scope,,,
+0,7.0,counterfactual,0.012899399967864156,10,,1.0,manager / worker appeal,OPTIMAL,True,
+0,7.0,conflict,0.006385799963027239,0,,1.0,manager / policy owner,OPTIMAL,True,False
+0,,breakdown,0.0001503999810665846,24,,0.875,manager / auditor,,True,
+1,0.0,local,6.400002166628838e-05,3,True,1.0,worker; fixed-rota scope,,,
+1,0.0,counterfactual,0.003689599921926856,0,,,manager / worker appeal,INFEASIBLE,,
+1,0.0,conflict,0.007457999978214502,1,,1.0,manager / policy owner,INFEASIBLE,True,True
+1,1.0,local,6.400002166628838e-05,3,True,1.0,worker; fixed-rota scope,,,
+1,1.0,counterfactual,0.003783699939958751,0,,,manager / worker appeal,INFEASIBLE,,
+1,1.0,conflict,0.007552600000053644,1,,1.0,manager / policy owner,INFEASIBLE,True,True
+1,2.0,local,6.400002166628838e-05,2,True,1.0,worker; fixed-rota scope,,,
+1,2.0,counterfactual,0.015491300029680133,9,,0.8181818181818182,manager / worker appeal,OPTIMAL,True,
+1,2.0,conflict,0.0064110999228432775,0,,1.0,manager / policy owner,OPTIMAL,True,False
+1,3.0,local,6.400002166628838e-05,3,False,1.0,worker; fixed-rota scope,,,
+1,3.0,counterfactual,0.012581700109876692,11,,0.5,manager / worker appeal,OPTIMAL,True,
+1,3.0,conflict,0.006737799965776503,0,,1.0,manager / policy owner,OPTIMAL,True,False
+1,4.0,local,6.400002166628838e-05,2,True,1.0,worker; fixed-rota scope,,,
+1,4.0,counterfactual,0.012572100036777556,2,,0.14285714285714285,manager / worker appeal,OPTIMAL,True,
+1,4.0,conflict,0.006452300003729761,0,,1.0,manager / policy owner,OPTIMAL,True,False
+1,5.0,local,6.400002166628838e-05,2,True,1.0,worker; fixed-rota scope,,,
+1,5.0,counterfactual,0.017437699949368834,8,,0.5,manager / worker appeal,OPTIMAL,True,
+1,5.0,conflict,0.0065722999861463904,0,,1.0,manager / policy owner,OPTIMAL,True,False
+1,6.0,local,6.400002166628838e-05,3,False,1.0,worker; fixed-rota scope,,,
+1,6.0,counterfactual,0.016341499984264374,8,,0.35714285714285715,manager / worker appeal,OPTIMAL,True,
+1,6.0,conflict,0.00660650001373142,0,,1.0,manager / policy owner,OPTIMAL,True,False
+1,7.0,local,6.400002166628838e-05,3,False,1.0,worker; fixed-rota scope,,,
+1,7.0,counterfactual,0.015007799956947565,8,,1.0,manager / worker appeal,OPTIMAL,True,
+1,7.0,conflict,0.006769799976609647,0,,1.0,manager / policy owner,OPTIMAL,True,False
+1,,breakdown,0.00019059993792325258,24,,0.875,manager / auditor,,True,
+2,0.0,local,6.679992657154799e-05,2,True,1.0,worker; fixed-rota scope,,,
+2,0.0,counterfactual,0.013725299970246851,4,,0.375,manager / worker appeal,OPTIMAL,True,
+2,0.0,conflict,0.006308899959549308,0,,1.0,manager / policy owner,OPTIMAL,True,False
+2,1.0,local,6.679992657154799e-05,3,False,1.0,worker; fixed-rota scope,,,
+2,1.0,counterfactual,0.01817769999615848,8,,0.6,manager / worker appeal,OPTIMAL,True,
+2,1.0,conflict,0.006406899890862405,0,,1.0,manager / policy owner,OPTIMAL,True,False
+2,2.0,local,6.679992657154799e-05,3,False,1.0,worker; fixed-rota scope,,,
+2,2.0,counterfactual,0.013848699978552759,13,,0.7142857142857143,manager / worker appeal,OPTIMAL,True,
+2,2.0,conflict,0.006661499966867268,0,,1.0,manager / policy owner,OPTIMAL,True,False
+2,3.0,local,6.679992657154799e-05,2,True,1.0,worker; fixed-rota scope,,,
+2,3.0,counterfactual,0.016458400059491396,7,,0.5454545454545454,manager / worker appeal,OPTIMAL,True,
+2,3.0,conflict,0.006477699964307249,0,,1.0,manager / policy owner,OPTIMAL,True,False
+2,4.0,local,6.679992657154799e-05,2,True,1.0,worker; fixed-rota scope,,,
+2,4.0,counterfactual,0.015654899994842708,7,,0.5555555555555556,manager / worker appeal,OPTIMAL,True,
+2,4.0,conflict,0.0063575999811291695,0,,1.0,manager / policy owner,OPTIMAL,True,False
+2,5.0,local,6.679992657154799e-05,2,True,1.0,worker; fixed-rota scope,,,
+2,5.0,counterfactual,0.015654600108973682,4,,0.6666666666666666,manager / worker appeal,OPTIMAL,True,
+2,5.0,conflict,0.0068174999905750155,0,,1.0,manager / policy owner,OPTIMAL,True,False
+2,6.0,local,6.679992657154799e-05,2,True,1.0,worker; fixed-rota scope,,,
+2,6.0,counterfactual,0.017127599916420877,9,,0.8,manager / worker appeal,OPTIMAL,True,
+2,6.0,conflict,0.007049100007861853,0,,1.0,manager / policy owner,OPTIMAL,True,False
+2,7.0,local,6.679992657154799e-05,3,False,1.0,worker; fixed-rota scope,,,
+2,7.0,counterfactual,0.020094199921004474,8,,1.0,manager / worker appeal,OPTIMAL,True,
+2,7.0,conflict,0.006916900048963726,0,,1.0,manager / policy owner,OPTIMAL,True,False
+2,,breakdown,0.000188400037586689,24,,1.0,manager / auditor,,True,
+3,0.0,local,6.479991134256124e-05,2,True,1.0,worker; fixed-rota scope,,,
+3,0.0,counterfactual,0.01400099997408688,5,,0.5,manager / worker appeal,OPTIMAL,True,
+3,0.0,conflict,0.006389199988916516,0,,1.0,manager / policy owner,OPTIMAL,True,False
+3,1.0,local,6.479991134256124e-05,3,False,1.0,worker; fixed-rota scope,,,
+3,1.0,counterfactual,0.014845400000922382,9,,0.6,manager / worker appeal,OPTIMAL,True,
+3,1.0,conflict,0.00671320001129061,0,,1.0,manager / policy owner,OPTIMAL,True,False
+3,2.0,local,6.479991134256124e-05,2,True,1.0,worker; fixed-rota scope,,,
+3,2.0,counterfactual,0.016650800011120737,5,,0.7142857142857143,manager / worker appeal,OPTIMAL,True,
+3,2.0,conflict,0.007056800066493452,0,,1.0,manager / policy owner,OPTIMAL,True,False
+3,3.0,local,6.479991134256124e-05,3,False,1.0,worker; fixed-rota scope,,,
+3,3.0,counterfactual,0.017648199922405183,5,,0.3333333333333333,manager / worker appeal,OPTIMAL,True,
+3,3.0,conflict,0.006842100061476231,0,,1.0,manager / policy owner,OPTIMAL,True,False
+3,4.0,local,6.479991134256124e-05,2,True,1.0,worker; fixed-rota scope,,,
+3,4.0,counterfactual,0.01531839999370277,11,,0.5384615384615384,manager / worker appeal,OPTIMAL,True,
+3,4.0,conflict,0.006866100011393428,0,,1.0,manager / policy owner,OPTIMAL,True,False
+3,5.0,local,6.479991134256124e-05,3,True,1.0,worker; fixed-rota scope,,,
+3,5.0,counterfactual,0.004614199977368116,0,,,manager / worker appeal,INFEASIBLE,,
+3,5.0,conflict,0.008985800086520612,1,,1.0,manager / policy owner,INFEASIBLE,True,True
+3,6.0,local,6.479991134256124e-05,3,False,1.0,worker; fixed-rota scope,,,
+3,6.0,counterfactual,0.015489600016735494,10,,0.45454545454545453,manager / worker appeal,OPTIMAL,True,
+3,6.0,conflict,0.007052300032228231,0,,1.0,manager / policy owner,OPTIMAL,True,False
+3,7.0,local,6.479991134256124e-05,2,True,1.0,worker; fixed-rota scope,,,
+3,7.0,counterfactual,0.016477700090035796,7,,1.0,manager / worker appeal,OPTIMAL,True,
+3,7.0,conflict,0.006766500067897141,0,,1.0,manager / policy owner,OPTIMAL,True,False
+3,,breakdown,0.00017850007861852646,24,,1.0,manager / auditor,,True,
+4,0.0,local,7.090007420629263e-05,2,True,1.0,worker; fixed-rota scope,,,
+4,0.0,counterfactual,0.018679399974644184,10,,0.6923076923076923,manager / worker appeal,OPTIMAL,True,
+4,0.0,conflict,0.007274499977938831,0,,1.0,manager / policy owner,OPTIMAL,True,False
+4,1.0,local,7.090007420629263e-05,2,True,1.0,worker; fixed-rota scope,,,
+4,1.0,counterfactual,0.021815999993123114,5,,0.3333333333333333,manager / worker appeal,OPTIMAL,True,
+4,1.0,conflict,0.007077399990521371,0,,1.0,manager / policy owner,OPTIMAL,True,False
+4,2.0,local,7.090007420629263e-05,4,True,1.0,worker; fixed-rota scope,,,
+4,2.0,counterfactual,0.003968200064264238,0,,,manager / worker appeal,INFEASIBLE,,
+4,2.0,conflict,0.00847169989719987,1,,1.0,manager / policy owner,INFEASIBLE,True,True
+4,3.0,local,7.090007420629263e-05,3,False,1.0,worker; fixed-rota scope,,,
+4,3.0,counterfactual,0.012560900067910552,11,,0.6153846153846154,manager / worker appeal,OPTIMAL,True,
+4,3.0,conflict,0.00722109992057085,0,,1.0,manager / policy owner,OPTIMAL,True,False
+4,4.0,local,7.090007420629263e-05,2,True,1.0,worker; fixed-rota scope,,,
+4,4.0,counterfactual,0.013144899974577129,6,,0.75,manager / worker appeal,OPTIMAL,True,
+4,4.0,conflict,0.007616800023242831,0,,1.0,manager / policy owner,OPTIMAL,True,False
+4,5.0,local,7.090007420629263e-05,3,True,1.0,worker; fixed-rota scope,,,
+4,5.0,counterfactual,0.0034703999990597367,0,,,manager / worker appeal,INFEASIBLE,,
+4,5.0,conflict,0.007557300035841763,1,,1.0,manager / policy owner,INFEASIBLE,True,True
+4,6.0,local,7.090007420629263e-05,2,True,1.0,worker; fixed-rota scope,,,
+4,6.0,counterfactual,0.016206300002522767,4,,0.5714285714285714,manager / worker appeal,OPTIMAL,True,
+4,6.0,conflict,0.0067411999916657805,0,,1.0,manager / policy owner,OPTIMAL,True,False
+4,7.0,local,7.090007420629263e-05,3,False,1.0,worker; fixed-rota scope,,,
+4,7.0,counterfactual,0.015129200066439807,9,,1.0,manager / worker appeal,OPTIMAL,True,
+4,7.0,conflict,0.007266599917784333,0,,1.0,manager / policy owner,OPTIMAL,True,False
+4,,breakdown,0.0001943999668583274,24,,0.875,manager / auditor,,True,
+5,0.0,local,7.690000347793102e-05,2,True,1.0,worker; fixed-rota scope,,,
+5,0.0,counterfactual,0.016708299983292818,11,,0.5454545454545454,manager / worker appeal,OPTIMAL,True,
+5,0.0,conflict,0.006812899955548346,0,,1.0,manager / policy owner,OPTIMAL,True,False
+5,1.0,local,7.690000347793102e-05,2,True,1.0,worker; fixed-rota scope,,,
+5,1.0,counterfactual,0.017656799987889826,8,,0.5,manager / worker appeal,OPTIMAL,True,
+5,1.0,conflict,0.0067952999379485846,0,,1.0,manager / policy owner,OPTIMAL,True,False
+5,2.0,local,7.690000347793102e-05,3,True,1.0,worker; fixed-rota scope,,,
+5,2.0,counterfactual,0.0036549000069499016,0,,,manager / worker appeal,INFEASIBLE,,
+5,2.0,conflict,0.00772970006801188,1,,1.0,manager / policy owner,INFEASIBLE,True,True
+5,3.0,local,7.690000347793102e-05,3,False,1.0,worker; fixed-rota scope,,,
+5,3.0,counterfactual,0.014068400021642447,9,,0.6363636363636364,manager / worker appeal,OPTIMAL,True,
+5,3.0,conflict,0.0067968000657856464,0,,1.0,manager / policy owner,OPTIMAL,True,False
+5,4.0,local,7.690000347793102e-05,2,True,1.0,worker; fixed-rota scope,,,
+5,4.0,counterfactual,0.01578660006634891,7,,0.36363636363636365,manager / worker appeal,OPTIMAL,True,
+5,4.0,conflict,0.006787400110624731,0,,1.0,manager / policy owner,OPTIMAL,True,False
+5,5.0,local,7.690000347793102e-05,3,False,1.0,worker; fixed-rota scope,,,
+5,5.0,counterfactual,0.014002299983985722,8,,0.7,manager / worker appeal,OPTIMAL,True,
+5,5.0,conflict,0.0068876000586897135,0,,1.0,manager / policy owner,OPTIMAL,True,False
+5,6.0,local,7.690000347793102e-05,2,True,1.0,worker; fixed-rota scope,,,
+5,6.0,counterfactual,0.01639659993816167,6,,0.8571428571428571,manager / worker appeal,OPTIMAL,True,
+5,6.0,conflict,0.006926800007931888,0,,1.0,manager / policy owner,OPTIMAL,True,False
+5,7.0,local,7.690000347793102e-05,3,False,1.0,worker; fixed-rota scope,,,
+5,7.0,counterfactual,0.012701500090770423,7,,1.0,manager / worker appeal,OPTIMAL,True,
+5,7.0,conflict,0.00673529994674027,0,,1.0,manager / policy owner,OPTIMAL,True,False
+5,,breakdown,0.00017070001922547817,24,,1.0,manager / auditor,,True,
+6,0.0,local,6.059999577701092e-05,2,True,1.0,worker; fixed-rota scope,,,
+6,0.0,counterfactual,0.01400409999769181,7,,0.625,manager / worker appeal,OPTIMAL,True,
+6,0.0,conflict,0.0068437999580055475,0,,1.0,manager / policy owner,OPTIMAL,True,False
+6,1.0,local,6.059999577701092e-05,2,True,1.0,worker; fixed-rota scope,,,
+6,1.0,counterfactual,0.0141536999726668,7,,0.7,manager / worker appeal,OPTIMAL,True,
+6,1.0,conflict,0.006989100016653538,0,,1.0,manager / policy owner,OPTIMAL,True,False
+6,2.0,local,6.059999577701092e-05,2,True,1.0,worker; fixed-rota scope,,,
+6,2.0,counterfactual,0.015332799986936152,10,,0.5454545454545454,manager / worker appeal,OPTIMAL,True,
+6,2.0,conflict,0.007410400081425905,0,,1.0,manager / policy owner,OPTIMAL,True,False
+6,3.0,local,6.059999577701092e-05,3,False,1.0,worker; fixed-rota scope,,,
+6,3.0,counterfactual,0.01809930009767413,9,,0.8,manager / worker appeal,OPTIMAL,True,
+6,3.0,conflict,0.006786099984310567,0,,1.0,manager / policy owner,OPTIMAL,True,False
+6,4.0,local,6.059999577701092e-05,2,True,1.0,worker; fixed-rota scope,,,
+6,4.0,counterfactual,0.017007799935527146,4,,0.3333333333333333,manager / worker appeal,OPTIMAL,True,
+6,4.0,conflict,0.006909699994139373,0,,1.0,manager / policy owner,OPTIMAL,True,False
+6,5.0,local,6.059999577701092e-05,3,False,1.0,worker; fixed-rota scope,,,
+6,5.0,counterfactual,0.01690220006275922,7,,0.375,manager / worker appeal,OPTIMAL,True,
+6,5.0,conflict,0.0070065000327304006,0,,1.0,manager / policy owner,OPTIMAL,True,False
+6,6.0,local,6.059999577701092e-05,3,False,1.0,worker; fixed-rota scope,,,
+6,6.0,counterfactual,0.01598779996857047,7,,0.875,manager / worker appeal,OPTIMAL,True,
+6,6.0,conflict,0.006934099947102368,0,,1.0,manager / policy owner,OPTIMAL,True,False
+6,7.0,local,6.059999577701092e-05,2,True,1.0,worker; fixed-rota scope,,,
+6,7.0,counterfactual,0.01503090001642704,7,,1.0,manager / worker appeal,OPTIMAL,True,
+6,7.0,conflict,0.00817549997009337,0,,1.0,manager / policy owner,OPTIMAL,True,False
+6,,breakdown,0.000175400055013597,24,,1.0,manager / auditor,,True,
+7,0.0,local,7.579999510198832e-05,2,True,1.0,worker; fixed-rota scope,,,
+7,0.0,counterfactual,0.013167099910788238,5,,1.0,manager / worker appeal,OPTIMAL,True,
+7,0.0,conflict,0.007023400045000017,0,,1.0,manager / policy owner,OPTIMAL,True,False
+7,1.0,local,7.579999510198832e-05,3,False,1.0,worker; fixed-rota scope,,,
+7,1.0,counterfactual,0.03423059999477118,8,,1.0,manager / worker appeal,OPTIMAL,True,
+7,1.0,conflict,0.0070062000304460526,0,,1.0,manager / policy owner,OPTIMAL,True,False
+7,2.0,local,7.579999510198832e-05,4,True,1.0,worker; fixed-rota scope,,,
+7,2.0,counterfactual,0.0037281999830156565,0,,,manager / worker appeal,INFEASIBLE,,
+7,2.0,conflict,0.007870599976740777,1,,1.0,manager / policy owner,INFEASIBLE,True,True
+7,3.0,local,7.579999510198832e-05,2,True,1.0,worker; fixed-rota scope,,,
+7,3.0,counterfactual,0.014338099979795516,8,,1.0,manager / worker appeal,OPTIMAL,True,
+7,3.0,conflict,0.007351800100877881,0,,1.0,manager / policy owner,OPTIMAL,True,False
+7,4.0,local,7.579999510198832e-05,2,True,1.0,worker; fixed-rota scope,,,
+7,4.0,counterfactual,0.013029500027187169,8,,1.0,manager / worker appeal,OPTIMAL,True,
+7,4.0,conflict,0.006776499911211431,0,,1.0,manager / policy owner,OPTIMAL,True,False
+7,5.0,local,7.579999510198832e-05,3,False,1.0,worker; fixed-rota scope,,,
+7,5.0,counterfactual,0.015486399992369115,7,,1.0,manager / worker appeal,OPTIMAL,True,
+7,5.0,conflict,0.007013699971139431,0,,1.0,manager / policy owner,OPTIMAL,True,False
+7,6.0,local,7.579999510198832e-05,3,True,1.0,worker; fixed-rota scope,,,
+7,6.0,counterfactual,0.0035285999765619636,0,,,manager / worker appeal,INFEASIBLE,,
+7,6.0,conflict,0.007814900018274784,1,,1.0,manager / policy owner,INFEASIBLE,True,True
+7,7.0,local,7.579999510198832e-05,3,True,1.0,worker; fixed-rota scope,,,
+7,7.0,counterfactual,0.003392699989490211,0,,,manager / worker appeal,INFEASIBLE,,
+7,7.0,conflict,0.00816949992440641,1,,1.0,manager / policy owner,INFEASIBLE,True,True
+7,,breakdown,0.00017939996905624866,24,,1.0,manager / auditor,,True,
+8,0.0,local,6.350001785904169e-05,2,True,1.0,worker; fixed-rota scope,,,
+8,0.0,counterfactual,0.017152099986560643,7,,1.0,manager / worker appeal,OPTIMAL,True,
+8,0.0,conflict,0.006701600039377809,0,,1.0,manager / policy owner,OPTIMAL,True,False
+8,1.0,local,6.350001785904169e-05,3,False,1.0,worker; fixed-rota scope,,,
+8,1.0,counterfactual,0.014655599952675402,7,,1.0,manager / worker appeal,OPTIMAL,True,
+8,1.0,conflict,0.0064347999868914485,0,,1.0,manager / policy owner,OPTIMAL,True,False
+8,2.0,local,6.350001785904169e-05,4,True,1.0,worker; fixed-rota scope,,,
+8,2.0,counterfactual,0.0036289000418037176,0,,,manager / worker appeal,INFEASIBLE,,
+8,2.0,conflict,0.007615200011059642,1,,1.0,manager / policy owner,INFEASIBLE,True,True
+8,3.0,local,6.350001785904169e-05,3,False,1.0,worker; fixed-rota scope,,,
+8,3.0,counterfactual,0.01833490002900362,10,,1.0,manager / worker appeal,OPTIMAL,True,
+8,3.0,conflict,0.006990100024268031,0,,1.0,manager / policy owner,OPTIMAL,True,False
+8,4.0,local,6.350001785904169e-05,2,True,1.0,worker; fixed-rota scope,,,
+8,4.0,counterfactual,0.013584399945102632,9,,1.0,manager / worker appeal,OPTIMAL,True,
+8,4.0,conflict,0.006866200012154877,0,,1.0,manager / policy owner,OPTIMAL,True,False
+8,5.0,local,6.350001785904169e-05,2,True,1.0,worker; fixed-rota scope,,,
+8,5.0,counterfactual,0.015925399959087372,5,,1.0,manager / worker appeal,OPTIMAL,True,
+8,5.0,conflict,0.007352999993599951,0,,1.0,manager / policy owner,OPTIMAL,True,False
+8,6.0,local,6.350001785904169e-05,3,True,1.0,worker; fixed-rota scope,,,
+8,6.0,counterfactual,0.0045047999592497945,0,,,manager / worker appeal,INFEASIBLE,,
+8,6.0,conflict,0.00825539999641478,1,,1.0,manager / policy owner,INFEASIBLE,True,True
+8,7.0,local,6.350001785904169e-05,3,True,1.0,worker; fixed-rota scope,,,
+8,7.0,counterfactual,0.005443900008685887,0,,,manager / worker appeal,INFEASIBLE,,
+8,7.0,conflict,0.008469199994578958,1,,1.0,manager / policy owner,INFEASIBLE,True,True
+8,,breakdown,0.0001832999987527728,24,,1.0,manager / auditor,,True,
+9,0.0,local,8.179992437362671e-05,2,True,1.0,worker; fixed-rota scope,,,
+9,0.0,counterfactual,0.013164400006644428,8,,0.5555555555555556,manager / worker appeal,OPTIMAL,True,
+9,0.0,conflict,0.007637099944986403,0,,1.0,manager / policy owner,OPTIMAL,True,False
+9,1.0,local,8.179992437362671e-05,2,True,1.0,worker; fixed-rota scope,,,
+9,1.0,counterfactual,0.0205570999532938,5,,0.18181818181818182,manager / worker appeal,OPTIMAL,True,
+9,1.0,conflict,0.007365099969319999,0,,1.0,manager / policy owner,OPTIMAL,True,False
+9,2.0,local,8.179992437362671e-05,3,False,1.0,worker; fixed-rota scope,,,
+9,2.0,counterfactual,0.015941299963742495,10,,0.5,manager / worker appeal,OPTIMAL,True,
+9,2.0,conflict,0.00882760004606098,0,,1.0,manager / policy owner,OPTIMAL,True,False
+9,3.0,local,8.179992437362671e-05,3,False,1.0,worker; fixed-rota scope,,,
+9,3.0,counterfactual,0.018606600002385676,8,,0.7272727272727273,manager / worker appeal,OPTIMAL,True,
+9,3.0,conflict,0.007302000070922077,0,,1.0,manager / policy owner,OPTIMAL,True,False
+9,4.0,local,8.179992437362671e-05,3,True,1.0,worker; fixed-rota scope,,,
+9,4.0,counterfactual,0.004079299978911877,0,,,manager / worker appeal,INFEASIBLE,,
+9,4.0,conflict,0.008481100085191429,1,,1.0,manager / policy owner,INFEASIBLE,True,True
+9,5.0,local,8.179992437362671e-05,3,False,1.0,worker; fixed-rota scope,,,
+9,5.0,counterfactual,0.012825299985706806,7,,0.5555555555555556,manager / worker appeal,OPTIMAL,True,
+9,5.0,conflict,0.008472100016660988,0,,1.0,manager / policy owner,OPTIMAL,True,False
+9,6.0,local,8.179992437362671e-05,2,True,1.0,worker; fixed-rota scope,,,
+9,6.0,counterfactual,0.01657930004876107,5,,0.42857142857142855,manager / worker appeal,OPTIMAL,True,
+9,6.0,conflict,0.007763399975374341,0,,1.0,manager / policy owner,OPTIMAL,True,False
+9,7.0,local,8.179992437362671e-05,2,True,1.0,worker; fixed-rota scope,,,
+9,7.0,counterfactual,0.01433320005889982,10,,1.0,manager / worker appeal,OPTIMAL,True,
+9,7.0,conflict,0.0075243000173941255,0,,1.0,manager / policy owner,OPTIMAL,True,False
+9,,breakdown,0.00017909996677190065,24,,1.0,manager / auditor,,True,
+10,0.0,local,0.00010369997471570969,2,True,1.0,worker; fixed-rota scope,,,
+10,0.0,counterfactual,0.019342800020240247,4,,0.5,manager / worker appeal,OPTIMAL,True,
+10,0.0,conflict,0.00776049995329231,0,,1.0,manager / policy owner,OPTIMAL,True,False
+10,1.0,local,0.00010369997471570969,2,True,1.0,worker; fixed-rota scope,,,
+10,1.0,counterfactual,0.016900799935683608,10,,0.8181818181818182,manager / worker appeal,OPTIMAL,True,
+10,1.0,conflict,0.007213099976070225,0,,1.0,manager / policy owner,OPTIMAL,True,False
+10,2.0,local,0.00010369997471570969,3,True,1.0,worker; fixed-rota scope,,,
+10,2.0,counterfactual,0.004132099915295839,0,,,manager / worker appeal,INFEASIBLE,,
+10,2.0,conflict,0.007457899977453053,1,,1.0,manager / policy owner,INFEASIBLE,True,True
+10,3.0,local,0.00010369997471570969,3,False,1.0,worker; fixed-rota scope,,,
+10,3.0,counterfactual,0.01726819993928075,6,,0.8571428571428571,manager / worker appeal,OPTIMAL,True,
+10,3.0,conflict,0.0074894999852404,0,,1.0,manager / policy owner,OPTIMAL,True,False
+10,4.0,local,0.00010369997471570969,3,True,1.0,worker; fixed-rota scope,,,
+10,4.0,counterfactual,0.0043672999599948525,0,,,manager / worker appeal,INFEASIBLE,,
+10,4.0,conflict,0.008585199946537614,1,,1.0,manager / policy owner,INFEASIBLE,True,True
+10,5.0,local,0.00010369997471570969,3,True,1.0,worker; fixed-rota scope,,,
+10,5.0,counterfactual,0.005012499983422458,0,,,manager / worker appeal,INFEASIBLE,,
+10,5.0,conflict,0.00856660003773868,1,,1.0,manager / policy owner,INFEASIBLE,True,True
+10,6.0,local,0.00010369997471570969,4,True,1.0,worker; fixed-rota scope,,,
+10,6.0,counterfactual,0.003920499933883548,0,,,manager / worker appeal,INFEASIBLE,,
+10,6.0,conflict,0.008271400001831353,1,,1.0,manager / policy owner,INFEASIBLE,True,True
+10,7.0,local,0.00010369997471570969,3,False,1.0,worker; fixed-rota scope,,,
+10,7.0,counterfactual,0.016901700058951974,5,,1.0,manager / worker appeal,OPTIMAL,True,
+10,7.0,conflict,0.006978899938985705,0,,1.0,manager / policy owner,OPTIMAL,True,False
+10,,breakdown,0.00019390007946640253,24,,0.875,manager / auditor,,True,
+11,0.0,local,6.420002318918705e-05,2,True,1.0,worker; fixed-rota scope,,,
+11,0.0,counterfactual,0.019489399972371757,9,,0.7777777777777778,manager / worker appeal,OPTIMAL,True,
+11,0.0,conflict,0.007338900002650917,0,,1.0,manager / policy owner,OPTIMAL,True,False
+11,1.0,local,6.420002318918705e-05,2,True,1.0,worker; fixed-rota scope,,,
+11,1.0,counterfactual,0.015164399985224009,5,,0.5,manager / worker appeal,OPTIMAL,True,
+11,1.0,conflict,0.007567699998617172,0,,1.0,manager / policy owner,OPTIMAL,True,False
+11,2.0,local,6.420002318918705e-05,2,True,1.0,worker; fixed-rota scope,,,
+11,2.0,counterfactual,0.015717700007371604,7,,0.42857142857142855,manager / worker appeal,OPTIMAL,True,
+11,2.0,conflict,0.006737099960446358,0,,1.0,manager / policy owner,OPTIMAL,True,False
+11,3.0,local,6.420002318918705e-05,3,False,1.0,worker; fixed-rota scope,,,
+11,3.0,counterfactual,0.022132700076326728,5,,0.3,manager / worker appeal,OPTIMAL,True,
+11,3.0,conflict,0.0075171999633312225,0,,1.0,manager / policy owner,OPTIMAL,True,False
+11,4.0,local,6.420002318918705e-05,2,True,1.0,worker; fixed-rota scope,,,
+11,4.0,counterfactual,0.017669899971224368,10,,0.5,manager / worker appeal,OPTIMAL,True,
+11,4.0,conflict,0.006866400013677776,0,,1.0,manager / policy owner,OPTIMAL,True,False
+11,5.0,local,6.420002318918705e-05,3,True,1.0,worker; fixed-rota scope,,,
+11,5.0,counterfactual,0.0036575000267475843,0,,,manager / worker appeal,INFEASIBLE,,
+11,5.0,conflict,0.009318399941548705,1,,1.0,manager / policy owner,INFEASIBLE,True,True
+11,6.0,local,6.420002318918705e-05,3,False,1.0,worker; fixed-rota scope,,,
+11,6.0,counterfactual,0.013332200003787875,8,,0.5,manager / worker appeal,OPTIMAL,True,
+11,6.0,conflict,0.007424099952913821,0,,1.0,manager / policy owner,OPTIMAL,True,False
+11,7.0,local,6.420002318918705e-05,3,False,1.0,worker; fixed-rota scope,,,
+11,7.0,counterfactual,0.014555600006133318,9,,1.0,manager / worker appeal,OPTIMAL,True,
+11,7.0,conflict,0.006432399968616664,0,,1.0,manager / policy owner,OPTIMAL,True,False
+11,,breakdown,0.00016439997125416994,24,,1.0,manager / auditor,,True,
+12,0.0,local,9.570003021508455e-05,2,True,1.0,worker; fixed-rota scope,,,
+12,0.0,counterfactual,0.015720800030976534,7,,0.3,manager / worker appeal,OPTIMAL,True,
+12,0.0,conflict,0.0066497999941930175,0,,1.0,manager / policy owner,OPTIMAL,True,False
+12,1.0,local,9.570003021508455e-05,4,True,1.0,worker; fixed-rota scope,,,
+12,1.0,counterfactual,0.0037236999487504363,0,,,manager / worker appeal,INFEASIBLE,,
+12,1.0,conflict,0.007620500051416457,1,,1.0,manager / policy owner,INFEASIBLE,True,True
+12,2.0,local,9.570003021508455e-05,3,True,1.0,worker; fixed-rota scope,,,
+12,2.0,counterfactual,0.003934100037440658,0,,,manager / worker appeal,INFEASIBLE,,
+12,2.0,conflict,0.008794700028374791,1,,1.0,manager / policy owner,INFEASIBLE,True,True
+12,3.0,local,9.570003021508455e-05,3,False,1.0,worker; fixed-rota scope,,,
+12,3.0,counterfactual,0.014685600064694881,10,,0.5833333333333334,manager / worker appeal,OPTIMAL,True,
+12,3.0,conflict,0.006771999993361533,0,,1.0,manager / policy owner,OPTIMAL,True,False
+12,4.0,local,9.570003021508455e-05,2,True,1.0,worker; fixed-rota scope,,,
+12,4.0,counterfactual,0.015095400041900575,8,,0.5454545454545454,manager / worker appeal,OPTIMAL,True,
+12,4.0,conflict,0.006767299957573414,0,,1.0,manager / policy owner,OPTIMAL,True,False
+12,5.0,local,9.570003021508455e-05,3,False,1.0,worker; fixed-rota scope,,,
+12,5.0,counterfactual,0.012444399995729327,10,,0.6428571428571429,manager / worker appeal,OPTIMAL,True,
+12,5.0,conflict,0.007090299972333014,0,,1.0,manager / policy owner,OPTIMAL,True,False
+12,6.0,local,9.570003021508455e-05,2,True,1.0,worker; fixed-rota scope,,,
+12,6.0,counterfactual,0.01649759989231825,13,,0.5,manager / worker appeal,OPTIMAL,True,
+12,6.0,conflict,0.006952300085686147,0,,1.0,manager / policy owner,OPTIMAL,True,False
+12,7.0,local,9.570003021508455e-05,2,True,1.0,worker; fixed-rota scope,,,
+12,7.0,counterfactual,0.01575989997945726,13,,1.0,manager / worker appeal,OPTIMAL,True,
+12,7.0,conflict,0.006757199997082353,0,,1.0,manager / policy owner,OPTIMAL,True,False
+12,,breakdown,0.00016489997506141663,24,,1.0,manager / auditor,,True,
+13,0.0,local,7.479998748749495e-05,2,True,1.0,worker; fixed-rota scope,,,
+13,0.0,counterfactual,0.013093200046569109,5,,0.2,manager / worker appeal,OPTIMAL,True,
+13,0.0,conflict,0.006823200033977628,0,,1.0,manager / policy owner,OPTIMAL,True,False
+13,1.0,local,7.479998748749495e-05,2,True,1.0,worker; fixed-rota scope,,,
+13,1.0,counterfactual,0.015148199978284538,5,,0.25,manager / worker appeal,OPTIMAL,True,
+13,1.0,conflict,0.006932800053618848,0,,1.0,manager / policy owner,OPTIMAL,True,False
+13,2.0,local,7.479998748749495e-05,2,True,1.0,worker; fixed-rota scope,,,
+13,2.0,counterfactual,0.017601800034753978,8,,0.625,manager / worker appeal,OPTIMAL,True,
+13,2.0,conflict,0.0067140000173822045,0,,1.0,manager / policy owner,OPTIMAL,True,False
+13,3.0,local,7.479998748749495e-05,3,False,1.0,worker; fixed-rota scope,,,
+13,3.0,counterfactual,0.019513199920766056,6,,0.42857142857142855,manager / worker appeal,OPTIMAL,True,
+13,3.0,conflict,0.006841099937446415,0,,1.0,manager / policy owner,OPTIMAL,True,False
+13,4.0,local,7.479998748749495e-05,3,True,1.0,worker; fixed-rota scope,,,
+13,4.0,counterfactual,0.003516600001603365,0,,,manager / worker appeal,INFEASIBLE,,
+13,4.0,conflict,0.00787909992504865,1,,1.0,manager / policy owner,INFEASIBLE,True,True
+13,5.0,local,7.479998748749495e-05,3,True,1.0,worker; fixed-rota scope,,,
+13,5.0,counterfactual,0.003482299973256886,0,,,manager / worker appeal,INFEASIBLE,,
+13,5.0,conflict,0.007820999948307872,1,,1.0,manager / policy owner,INFEASIBLE,True,True
+13,6.0,local,7.479998748749495e-05,3,False,1.0,worker; fixed-rota scope,,,
+13,6.0,counterfactual,0.014385899994522333,8,,0.6,manager / worker appeal,OPTIMAL,True,
+13,6.0,conflict,0.006743100006133318,0,,1.0,manager / policy owner,OPTIMAL,True,False
+13,7.0,local,7.479998748749495e-05,3,False,1.0,worker; fixed-rota scope,,,
+13,7.0,counterfactual,0.01364410005044192,4,,1.0,manager / worker appeal,OPTIMAL,True,
+13,7.0,conflict,0.006641400046646595,0,,1.0,manager / policy owner,OPTIMAL,True,False
+13,,breakdown,0.00014960009139031172,24,,0.875,manager / auditor,,True,
+14,0.0,local,6.140000186860561e-05,3,True,1.0,worker; fixed-rota scope,,,
+14,0.0,counterfactual,0.004430699977092445,0,,,manager / worker appeal,INFEASIBLE,,
+14,0.0,conflict,0.008141499944031239,1,,1.0,manager / policy owner,INFEASIBLE,True,True
+14,1.0,local,6.140000186860561e-05,2,True,1.0,worker; fixed-rota scope,,,
+14,1.0,counterfactual,0.012542200041934848,8,,0.6,manager / worker appeal,OPTIMAL,True,
+14,1.0,conflict,0.006466199993155897,0,,1.0,manager / policy owner,OPTIMAL,True,False
+14,2.0,local,6.140000186860561e-05,4,True,1.0,worker; fixed-rota scope,,,
+14,2.0,counterfactual,0.003525699954479933,0,,,manager / worker appeal,INFEASIBLE,,
+14,2.0,conflict,0.0077862999169155955,1,,1.0,manager / policy owner,INFEASIBLE,True,True
+14,3.0,local,6.140000186860561e-05,4,True,1.0,worker; fixed-rota scope,,,
+14,3.0,counterfactual,0.0035755999851971865,0,,,manager / worker appeal,INFEASIBLE,,
+14,3.0,conflict,0.00733079994097352,1,,1.0,manager / policy owner,INFEASIBLE,True,True
+14,4.0,local,6.140000186860561e-05,2,True,1.0,worker; fixed-rota scope,,,
+14,4.0,counterfactual,0.01845660002436489,3,,0.18181818181818182,manager / worker appeal,OPTIMAL,True,
+14,4.0,conflict,0.006640900042839348,0,,1.0,manager / policy owner,OPTIMAL,True,False
+14,5.0,local,6.140000186860561e-05,2,True,1.0,worker; fixed-rota scope,,,
+14,5.0,counterfactual,0.014163700048811734,7,,0.7,manager / worker appeal,OPTIMAL,True,
+14,5.0,conflict,0.010580400004982948,0,,1.0,manager / policy owner,OPTIMAL,True,False
+14,6.0,local,6.140000186860561e-05,2,True,1.0,worker; fixed-rota scope,,,
+14,6.0,counterfactual,0.019721999997273088,7,,0.6666666666666666,manager / worker appeal,OPTIMAL,True,
+14,6.0,conflict,0.007665200042538345,0,,1.0,manager / policy owner,OPTIMAL,True,False
+14,7.0,local,6.140000186860561e-05,3,False,1.0,worker; fixed-rota scope,,,
+14,7.0,counterfactual,0.020649899961426854,3,,1.0,manager / worker appeal,OPTIMAL,True,
+14,7.0,conflict,0.007412899984046817,0,,1.0,manager / policy owner,OPTIMAL,True,False
+14,,breakdown,0.0002148000057786703,24,,0.875,manager / auditor,,True,
+15,0.0,local,6.170000415295362e-05,2,True,1.0,worker; fixed-rota scope,,,
+15,0.0,counterfactual,0.016041000024415553,3,,1.0,manager / worker appeal,OPTIMAL,True,
+15,0.0,conflict,0.007174300029873848,0,,1.0,manager / policy owner,OPTIMAL,True,False
+15,1.0,local,6.170000415295362e-05,2,True,1.0,worker; fixed-rota scope,,,
+15,1.0,counterfactual,0.013378700008615851,10,,1.0,manager / worker appeal,OPTIMAL,True,
+15,1.0,conflict,0.007107300101779401,0,,1.0,manager / policy owner,OPTIMAL,True,False
+15,2.0,local,6.170000415295362e-05,2,True,1.0,worker; fixed-rota scope,,,
+15,2.0,counterfactual,0.01317739998921752,7,,1.0,manager / worker appeal,OPTIMAL,True,
+15,2.0,conflict,0.0077526000095531344,0,,1.0,manager / policy owner,OPTIMAL,True,False
+15,3.0,local,6.170000415295362e-05,2,True,1.0,worker; fixed-rota scope,,,
+15,3.0,counterfactual,0.016399800078943372,7,,1.0,manager / worker appeal,OPTIMAL,True,
+15,3.0,conflict,0.0071347999619320035,0,,1.0,manager / policy owner,OPTIMAL,True,False
+15,4.0,local,6.170000415295362e-05,2,True,1.0,worker; fixed-rota scope,,,
+15,4.0,counterfactual,0.016141900094226003,6,,1.0,manager / worker appeal,OPTIMAL,True,
+15,4.0,conflict,0.006908999988809228,0,,1.0,manager / policy owner,OPTIMAL,True,False
+15,5.0,local,6.170000415295362e-05,3,False,1.0,worker; fixed-rota scope,,,
+15,5.0,counterfactual,0.01626070006750524,9,,1.0,manager / worker appeal,OPTIMAL,True,
+15,5.0,conflict,0.006921600084751844,0,,1.0,manager / policy owner,OPTIMAL,True,False
+15,6.0,local,6.170000415295362e-05,3,False,1.0,worker; fixed-rota scope,,,
+15,6.0,counterfactual,0.015169600024819374,6,,1.0,manager / worker appeal,OPTIMAL,True,
+15,6.0,conflict,0.006885800044983625,0,,1.0,manager / policy owner,OPTIMAL,True,False
+15,7.0,local,6.170000415295362e-05,4,True,1.0,worker; fixed-rota scope,,,
+15,7.0,counterfactual,0.004260400077328086,0,,,manager / worker appeal,INFEASIBLE,,
+15,7.0,conflict,0.00778440001886338,1,,1.0,manager / policy owner,INFEASIBLE,True,True
+15,,breakdown,0.00017200002912431955,24,,1.0,manager / auditor,,True,
+16,0.0,local,6.57000346109271e-05,2,True,1.0,worker; fixed-rota scope,,,
+16,0.0,counterfactual,0.02017799997702241,8,,0.5454545454545454,manager / worker appeal,OPTIMAL,True,
+16,0.0,conflict,0.0075258000288158655,0,,1.0,manager / policy owner,OPTIMAL,True,False
+16,1.0,local,6.57000346109271e-05,2,True,1.0,worker; fixed-rota scope,,,
+16,1.0,counterfactual,0.020189300063066185,9,,0.38461538461538464,manager / worker appeal,OPTIMAL,True,
+16,1.0,conflict,0.00734140002168715,0,,1.0,manager / policy owner,OPTIMAL,True,False
+16,2.0,local,6.57000346109271e-05,3,False,1.0,worker; fixed-rota scope,,,
+16,2.0,counterfactual,0.01760760007891804,12,,0.46153846153846156,manager / worker appeal,OPTIMAL,True,
+16,2.0,conflict,0.00709089997690171,0,,1.0,manager / policy owner,OPTIMAL,True,False
+16,3.0,local,6.57000346109271e-05,3,False,1.0,worker; fixed-rota scope,,,
+16,3.0,counterfactual,0.016618699999526143,8,,0.6363636363636364,manager / worker appeal,OPTIMAL,True,
+16,3.0,conflict,0.006799100083298981,0,,1.0,manager / policy owner,OPTIMAL,True,False
+16,4.0,local,6.57000346109271e-05,2,True,1.0,worker; fixed-rota scope,,,
+16,4.0,counterfactual,0.014926200034096837,6,,0.09090909090909091,manager / worker appeal,OPTIMAL,True,
+16,4.0,conflict,0.0075530000030994415,0,,1.0,manager / policy owner,OPTIMAL,True,False
+16,5.0,local,6.57000346109271e-05,3,False,1.0,worker; fixed-rota scope,,,
+16,5.0,counterfactual,0.015114499954506755,9,,0.5714285714285714,manager / worker appeal,OPTIMAL,True,
+16,5.0,conflict,0.00773389998357743,0,,1.0,manager / policy owner,OPTIMAL,True,False
+16,6.0,local,6.57000346109271e-05,2,True,1.0,worker; fixed-rota scope,,,
+16,6.0,counterfactual,0.014712799922563136,8,,0.5454545454545454,manager / worker appeal,OPTIMAL,True,
+16,6.0,conflict,0.00706010009162128,0,,1.0,manager / policy owner,OPTIMAL,True,False
+16,7.0,local,6.57000346109271e-05,2,True,1.0,worker; fixed-rota scope,,,
+16,7.0,counterfactual,0.013501400011591613,11,,1.0,manager / worker appeal,OPTIMAL,True,
+16,7.0,conflict,0.00770890002604574,0,,1.0,manager / policy owner,OPTIMAL,True,False
+16,,breakdown,0.00017310003750026226,24,,1.0,manager / auditor,,True,
+17,0.0,local,6.719992961734533e-05,2,True,1.0,worker; fixed-rota scope,,,
+17,0.0,counterfactual,0.015109699917957187,7,,0.5833333333333334,manager / worker appeal,OPTIMAL,True,
+17,0.0,conflict,0.006864099996164441,0,,1.0,manager / policy owner,OPTIMAL,True,False
+17,1.0,local,6.719992961734533e-05,2,True,1.0,worker; fixed-rota scope,,,
+17,1.0,counterfactual,0.012662300025112927,7,,0.3076923076923077,manager / worker appeal,OPTIMAL,True,
+17,1.0,conflict,0.007846900029107928,0,,1.0,manager / policy owner,OPTIMAL,True,False
+17,2.0,local,6.719992961734533e-05,3,False,1.0,worker; fixed-rota scope,,,
+17,2.0,counterfactual,0.01785029994789511,13,,0.6923076923076923,manager / worker appeal,OPTIMAL,True,
+17,2.0,conflict,0.00710569997318089,0,,1.0,manager / policy owner,OPTIMAL,True,False
+17,3.0,local,6.719992961734533e-05,4,True,1.0,worker; fixed-rota scope,,,
+17,3.0,counterfactual,0.00437219999730587,0,,,manager / worker appeal,INFEASIBLE,,
+17,3.0,conflict,0.00744499999564141,1,,1.0,manager / policy owner,INFEASIBLE,True,True
+17,4.0,local,6.719992961734533e-05,2,True,1.0,worker; fixed-rota scope,,,
+17,4.0,counterfactual,0.01700720004737377,12,,0.8571428571428571,manager / worker appeal,OPTIMAL,True,
+17,4.0,conflict,0.007566799991764128,0,,1.0,manager / policy owner,OPTIMAL,True,False
+17,5.0,local,6.719992961734533e-05,3,True,1.0,worker; fixed-rota scope,,,
+17,5.0,counterfactual,0.003702000016346574,0,,,manager / worker appeal,INFEASIBLE,,
+17,5.0,conflict,0.007924700039438903,1,,1.0,manager / policy owner,INFEASIBLE,True,True
+17,6.0,local,6.719992961734533e-05,2,True,1.0,worker; fixed-rota scope,,,
+17,6.0,counterfactual,0.018160999985411763,7,,1.0,manager / worker appeal,OPTIMAL,True,
+17,6.0,conflict,0.006493300083093345,0,,1.0,manager / policy owner,OPTIMAL,True,False
+17,7.0,local,6.719992961734533e-05,3,False,1.0,worker; fixed-rota scope,,,
+17,7.0,counterfactual,0.02047440002206713,5,,1.0,manager / worker appeal,OPTIMAL,True,
+17,7.0,conflict,0.007132100057788193,0,,1.0,manager / policy owner,OPTIMAL,True,False
+17,,breakdown,0.0001954999752342701,24,,0.875,manager / auditor,,True,
+18,0.0,local,6.820005364716053e-05,2,True,1.0,worker; fixed-rota scope,,,
+18,0.0,counterfactual,0.014451300026848912,10,,0.5384615384615384,manager / worker appeal,OPTIMAL,True,
+18,0.0,conflict,0.008206299971789122,0,,1.0,manager / policy owner,OPTIMAL,True,False
+18,1.0,local,6.820005364716053e-05,3,False,1.0,worker; fixed-rota scope,,,
+18,1.0,counterfactual,0.015242900000885129,12,,0.42857142857142855,manager / worker appeal,OPTIMAL,True,
+18,1.0,conflict,0.006811199942603707,0,,1.0,manager / policy owner,OPTIMAL,True,False
+18,2.0,local,6.820005364716053e-05,2,True,1.0,worker; fixed-rota scope,,,
+18,2.0,counterfactual,0.01696429995354265,8,,0.6666666666666666,manager / worker appeal,OPTIMAL,True,
+18,2.0,conflict,0.006995899952016771,0,,1.0,manager / policy owner,OPTIMAL,True,False
+18,3.0,local,6.820005364716053e-05,2,True,1.0,worker; fixed-rota scope,,,
+18,3.0,counterfactual,0.01409609999973327,14,,0.8571428571428571,manager / worker appeal,OPTIMAL,True,
+18,3.0,conflict,0.007434200029820204,0,,1.0,manager / policy owner,OPTIMAL,True,False
+18,4.0,local,6.820005364716053e-05,2,True,1.0,worker; fixed-rota scope,,,
+18,4.0,counterfactual,0.014191499911248684,10,,0.6363636363636364,manager / worker appeal,OPTIMAL,True,
+18,4.0,conflict,0.008143199956975877,0,,1.0,manager / policy owner,OPTIMAL,True,False
+18,5.0,local,6.820005364716053e-05,3,False,1.0,worker; fixed-rota scope,,,
+18,5.0,counterfactual,0.02048360009212047,7,,0.38461538461538464,manager / worker appeal,OPTIMAL,True,
+18,5.0,conflict,0.006535599939525127,0,,1.0,manager / policy owner,OPTIMAL,True,False
+18,6.0,local,6.820005364716053e-05,2,True,1.0,worker; fixed-rota scope,,,
+18,6.0,counterfactual,0.013881799997761846,8,,0.5,manager / worker appeal,OPTIMAL,True,
+18,6.0,conflict,0.006571799982339144,0,,1.0,manager / policy owner,OPTIMAL,True,False
+18,7.0,local,6.820005364716053e-05,3,False,1.0,worker; fixed-rota scope,,,
+18,7.0,counterfactual,0.015427100006490946,9,,1.0,manager / worker appeal,OPTIMAL,True,
+18,7.0,conflict,0.006276699947193265,0,,1.0,manager / policy owner,OPTIMAL,True,False
+18,,breakdown,0.00015570002142339945,24,,1.0,manager / auditor,,True,
+19,0.0,local,5.889998283237219e-05,2,True,1.0,worker; fixed-rota scope,,,
+19,0.0,counterfactual,0.012052899925038218,9,,1.0,manager / worker appeal,OPTIMAL,True,
+19,0.0,conflict,0.007589000044390559,0,,1.0,manager / policy owner,OPTIMAL,True,False
+19,1.0,local,5.889998283237219e-05,3,False,1.0,worker; fixed-rota scope,,,
+19,1.0,counterfactual,0.013872600044123828,5,,1.0,manager / worker appeal,OPTIMAL,True,
+19,1.0,conflict,0.006437000003643334,0,,1.0,manager / policy owner,OPTIMAL,True,False
+19,2.0,local,5.889998283237219e-05,3,False,1.0,worker; fixed-rota scope,,,
+19,2.0,counterfactual,0.017620300059206784,4,,1.0,manager / worker appeal,OPTIMAL,True,
+19,2.0,conflict,0.006476699956692755,0,,1.0,manager / policy owner,OPTIMAL,True,False
+19,3.0,local,5.889998283237219e-05,4,True,1.0,worker; fixed-rota scope,,,
+19,3.0,counterfactual,0.003338199923746288,0,,,manager / worker appeal,INFEASIBLE,,
+19,3.0,conflict,0.008058700012043118,1,,1.0,manager / policy owner,INFEASIBLE,True,True
+19,4.0,local,5.889998283237219e-05,2,True,1.0,worker; fixed-rota scope,,,
+19,4.0,counterfactual,0.012931099976412952,9,,1.0,manager / worker appeal,OPTIMAL,True,
+19,4.0,conflict,0.0064224000088870525,0,,1.0,manager / policy owner,OPTIMAL,True,False
+19,5.0,local,5.889998283237219e-05,2,True,1.0,worker; fixed-rota scope,,,
+19,5.0,counterfactual,0.012016199994832277,6,,1.0,manager / worker appeal,OPTIMAL,True,
+19,5.0,conflict,0.007088599959388375,0,,1.0,manager / policy owner,OPTIMAL,True,False
+19,6.0,local,5.889998283237219e-05,2,True,1.0,worker; fixed-rota scope,,,
+19,6.0,counterfactual,0.015398500021547079,7,,1.0,manager / worker appeal,OPTIMAL,True,
+19,6.0,conflict,0.007270599948242307,0,,1.0,manager / policy owner,OPTIMAL,True,False
+19,7.0,local,5.889998283237219e-05,3,True,1.0,worker; fixed-rota scope,,,
+19,7.0,counterfactual,0.0036259000189602375,0,,,manager / worker appeal,INFEASIBLE,,
+19,7.0,conflict,0.00808349996805191,1,,1.0,manager / policy owner,INFEASIBLE,True,True
+19,,breakdown,0.00016360008157789707,24,,1.0,manager / auditor,,True,
+20,0.0,local,5.8399979025125504e-05,2,True,1.0,worker; fixed-rota scope,,,
+20,0.0,counterfactual,0.012644900009036064,7,,1.0,manager / worker appeal,OPTIMAL,True,
+20,0.0,conflict,0.006962199928238988,0,,1.0,manager / policy owner,OPTIMAL,True,False
+20,1.0,local,5.8399979025125504e-05,3,False,1.0,worker; fixed-rota scope,,,
+20,1.0,counterfactual,0.01349460007622838,6,,1.0,manager / worker appeal,OPTIMAL,True,
+20,1.0,conflict,0.006577999913133681,0,,1.0,manager / policy owner,OPTIMAL,True,False
+20,2.0,local,5.8399979025125504e-05,2,True,1.0,worker; fixed-rota scope,,,
+20,2.0,counterfactual,0.012282000039704144,5,,1.0,manager / worker appeal,OPTIMAL,True,
+20,2.0,conflict,0.006755699985660613,0,,1.0,manager / policy owner,OPTIMAL,True,False
+20,3.0,local,5.8399979025125504e-05,2,True,1.0,worker; fixed-rota scope,,,
+20,3.0,counterfactual,0.01522499998100102,3,,1.0,manager / worker appeal,OPTIMAL,True,
+20,3.0,conflict,0.006670999922789633,0,,1.0,manager / policy owner,OPTIMAL,True,False
+20,4.0,local,5.8399979025125504e-05,2,True,1.0,worker; fixed-rota scope,,,
+20,4.0,counterfactual,0.015129299950785935,3,,1.0,manager / worker appeal,OPTIMAL,True,
+20,4.0,conflict,0.006567299948073924,0,,1.0,manager / policy owner,OPTIMAL,True,False
+20,5.0,local,5.8399979025125504e-05,3,False,1.0,worker; fixed-rota scope,,,
+20,5.0,counterfactual,0.013600499951280653,5,,1.0,manager / worker appeal,OPTIMAL,True,
+20,5.0,conflict,0.007793299970217049,0,,1.0,manager / policy owner,OPTIMAL,True,False
+20,6.0,local,5.8399979025125504e-05,4,True,1.0,worker; fixed-rota scope,,,
+20,6.0,counterfactual,0.0043264999985694885,0,,,manager / worker appeal,INFEASIBLE,,
+20,6.0,conflict,0.007573300041258335,1,,1.0,manager / policy owner,INFEASIBLE,True,True
+20,7.0,local,5.8399979025125504e-05,3,True,1.0,worker; fixed-rota scope,,,
+20,7.0,counterfactual,0.003338000038638711,0,,,manager / worker appeal,INFEASIBLE,,
+20,7.0,conflict,0.008973699994385242,1,,1.0,manager / policy owner,INFEASIBLE,True,True
+20,,breakdown,0.00018009997438639402,24,,1.0,manager / auditor,,True,
+21,0.0,local,5.979998968541622e-05,2,True,1.0,worker; fixed-rota scope,,,
+21,0.0,counterfactual,0.014061100082471967,10,,0.46153846153846156,manager / worker appeal,OPTIMAL,True,
+21,0.0,conflict,0.006566799944266677,0,,1.0,manager / policy owner,OPTIMAL,True,False
+21,1.0,local,5.979998968541622e-05,2,True,1.0,worker; fixed-rota scope,,,
+21,1.0,counterfactual,0.013764800038188696,11,,0.6428571428571429,manager / worker appeal,OPTIMAL,True,
+21,1.0,conflict,0.006312799989245832,0,,1.0,manager / policy owner,OPTIMAL,True,False
+21,2.0,local,5.979998968541622e-05,2,True,1.0,worker; fixed-rota scope,,,
+21,2.0,counterfactual,0.01610950008034706,8,,0.6363636363636364,manager / worker appeal,OPTIMAL,True,
+21,2.0,conflict,0.006295599974691868,0,,1.0,manager / policy owner,OPTIMAL,True,False
+21,3.0,local,5.979998968541622e-05,3,False,1.0,worker; fixed-rota scope,,,
+21,3.0,counterfactual,0.015450799954123795,6,,0.25,manager / worker appeal,OPTIMAL,True,
+21,3.0,conflict,0.0064353999914601445,0,,1.0,manager / policy owner,OPTIMAL,True,False
+21,4.0,local,5.979998968541622e-05,2,True,1.0,worker; fixed-rota scope,,,
+21,4.0,counterfactual,0.0132232999894768,8,,0.42857142857142855,manager / worker appeal,OPTIMAL,True,
+21,4.0,conflict,0.006247099954634905,0,,1.0,manager / policy owner,OPTIMAL,True,False
+21,5.0,local,5.979998968541622e-05,2,True,1.0,worker; fixed-rota scope,,,
+21,5.0,counterfactual,0.01663530000951141,9,,0.6363636363636364,manager / worker appeal,OPTIMAL,True,
+21,5.0,conflict,0.006966199958696961,0,,1.0,manager / policy owner,OPTIMAL,True,False
+21,6.0,local,5.979998968541622e-05,3,False,1.0,worker; fixed-rota scope,,,
+21,6.0,counterfactual,0.015085100079886615,10,,0.5384615384615384,manager / worker appeal,OPTIMAL,True,
+21,6.0,conflict,0.006684400024823844,0,,1.0,manager / policy owner,OPTIMAL,True,False
+21,7.0,local,5.979998968541622e-05,3,False,1.0,worker; fixed-rota scope,,,
+21,7.0,counterfactual,0.0135505999205634,8,,1.0,manager / worker appeal,OPTIMAL,True,
+21,7.0,conflict,0.006468400009907782,0,,1.0,manager / policy owner,OPTIMAL,True,False
+21,,breakdown,0.00014869996812194586,24,,0.875,manager / auditor,,True,
+22,0.0,local,5.439994856715202e-05,2,True,1.0,worker; fixed-rota scope,,,
+22,0.0,counterfactual,0.013747200020588934,8,,0.6666666666666666,manager / worker appeal,OPTIMAL,True,
+22,0.0,conflict,0.006656200042925775,0,,1.0,manager / policy owner,OPTIMAL,True,False
+22,1.0,local,5.439994856715202e-05,2,True,1.0,worker; fixed-rota scope,,,
+22,1.0,counterfactual,0.016439999919384718,10,,0.7272727272727273,manager / worker appeal,OPTIMAL,True,
+22,1.0,conflict,0.006974900024943054,0,,1.0,manager / policy owner,OPTIMAL,True,False
+22,2.0,local,5.439994856715202e-05,3,False,1.0,worker; fixed-rota scope,,,
+22,2.0,counterfactual,0.016220899997279048,11,,0.9090909090909091,manager / worker appeal,OPTIMAL,True,
+22,2.0,conflict,0.006645199959166348,0,,1.0,manager / policy owner,OPTIMAL,True,False
+22,3.0,local,5.439994856715202e-05,2,True,1.0,worker; fixed-rota scope,,,
+22,3.0,counterfactual,0.01274640008341521,9,,0.35714285714285715,manager / worker appeal,OPTIMAL,True,
+22,3.0,conflict,0.006793900043703616,0,,1.0,manager / policy owner,OPTIMAL,True,False
+22,4.0,local,5.439994856715202e-05,2,True,1.0,worker; fixed-rota scope,,,
+22,4.0,counterfactual,0.012707300018519163,6,,0.3333333333333333,manager / worker appeal,OPTIMAL,True,
+22,4.0,conflict,0.006630899966694415,0,,1.0,manager / policy owner,OPTIMAL,True,False
+22,5.0,local,5.439994856715202e-05,3,False,1.0,worker; fixed-rota scope,,,
+22,5.0,counterfactual,0.014268700033426285,11,,0.46153846153846156,manager / worker appeal,OPTIMAL,True,
+22,5.0,conflict,0.00643309997394681,0,,1.0,manager / policy owner,OPTIMAL,True,False
+22,6.0,local,5.439994856715202e-05,2,True,1.0,worker; fixed-rota scope,,,
+22,6.0,counterfactual,0.01495819992851466,8,,0.6666666666666666,manager / worker appeal,OPTIMAL,True,
+22,6.0,conflict,0.008261000039055943,0,,1.0,manager / policy owner,OPTIMAL,True,False
+22,7.0,local,5.439994856715202e-05,3,False,1.0,worker; fixed-rota scope,,,
+22,7.0,counterfactual,0.013146599987521768,8,,1.0,manager / worker appeal,OPTIMAL,True,
+22,7.0,conflict,0.006683000014163554,0,,1.0,manager / policy owner,OPTIMAL,True,False
+22,,breakdown,0.00018670002464205027,24,,0.875,manager / auditor,,True,
+23,0.0,local,5.789997521787882e-05,2,True,1.0,worker; fixed-rota scope,,,
+23,0.0,counterfactual,0.015412100008688867,9,,0.3,manager / worker appeal,OPTIMAL,True,
+23,0.0,conflict,0.006959000020287931,0,,1.0,manager / policy owner,OPTIMAL,True,False
+23,1.0,local,5.789997521787882e-05,3,True,1.0,worker; fixed-rota scope,,,
+23,1.0,counterfactual,0.004116500029340386,0,,,manager / worker appeal,INFEASIBLE,,
+23,1.0,conflict,0.007511200034059584,1,,1.0,manager / policy owner,INFEASIBLE,True,True
+23,2.0,local,5.789997521787882e-05,2,True,1.0,worker; fixed-rota scope,,,
+23,2.0,counterfactual,0.013083700090646744,4,,0.3333333333333333,manager / worker appeal,OPTIMAL,True,
+23,2.0,conflict,0.007078900001943111,0,,1.0,manager / policy owner,OPTIMAL,True,False
+23,3.0,local,5.789997521787882e-05,3,False,1.0,worker; fixed-rota scope,,,
+23,3.0,counterfactual,0.016839700052514672,10,,0.38461538461538464,manager / worker appeal,OPTIMAL,True,
+23,3.0,conflict,0.007192899938672781,0,,1.0,manager / policy owner,OPTIMAL,True,False
+23,4.0,local,5.789997521787882e-05,2,True,1.0,worker; fixed-rota scope,,,
+23,4.0,counterfactual,0.01698800001759082,10,,0.7272727272727273,manager / worker appeal,OPTIMAL,True,
+23,4.0,conflict,0.006827599951066077,0,,1.0,manager / policy owner,OPTIMAL,True,False
+23,5.0,local,5.789997521787882e-05,2,True,1.0,worker; fixed-rota scope,,,
+23,5.0,counterfactual,0.015668999985791743,5,,0.3333333333333333,manager / worker appeal,OPTIMAL,True,
+23,5.0,conflict,0.00649990001693368,0,,1.0,manager / policy owner,OPTIMAL,True,False
+23,6.0,local,5.789997521787882e-05,3,False,1.0,worker; fixed-rota scope,,,
+23,6.0,counterfactual,0.015354299917817116,10,,0.5,manager / worker appeal,OPTIMAL,True,
+23,6.0,conflict,0.007020300021395087,0,,1.0,manager / policy owner,OPTIMAL,True,False
+23,7.0,local,5.789997521787882e-05,3,False,1.0,worker; fixed-rota scope,,,
+23,7.0,counterfactual,0.015713399974629283,5,,1.0,manager / worker appeal,OPTIMAL,True,
+23,7.0,conflict,0.006716400035656989,0,,1.0,manager / policy owner,OPTIMAL,True,False
+23,,breakdown,0.00014530005864799023,24,,1.0,manager / auditor,,True,
+24,0.0,local,5.91999851167202e-05,2,True,1.0,worker; fixed-rota scope,,,
+24,0.0,counterfactual,0.022294200025498867,9,,0.7,manager / worker appeal,OPTIMAL,True,
+24,0.0,conflict,0.006147700012661517,0,,1.0,manager / policy owner,OPTIMAL,True,False
+24,1.0,local,5.91999851167202e-05,3,False,1.0,worker; fixed-rota scope,,,
+24,1.0,counterfactual,0.014864599914290011,12,,0.5833333333333334,manager / worker appeal,OPTIMAL,True,
+24,1.0,conflict,0.00704950001090765,0,,1.0,manager / policy owner,OPTIMAL,True,False
+24,2.0,local,5.91999851167202e-05,2,True,1.0,worker; fixed-rota scope,,,
+24,2.0,counterfactual,0.012931599980220199,10,,0.6153846153846154,manager / worker appeal,OPTIMAL,True,
+24,2.0,conflict,0.0074656999204307795,0,,1.0,manager / policy owner,OPTIMAL,True,False
+24,3.0,local,5.91999851167202e-05,2,True,1.0,worker; fixed-rota scope,,,
+24,3.0,counterfactual,0.014722200110554695,9,,0.3333333333333333,manager / worker appeal,OPTIMAL,True,
+24,3.0,conflict,0.006649500108323991,0,,1.0,manager / policy owner,OPTIMAL,True,False
+24,4.0,local,5.91999851167202e-05,2,True,1.0,worker; fixed-rota scope,,,
+24,4.0,counterfactual,0.020724000059999526,10,,0.5384615384615384,manager / worker appeal,OPTIMAL,True,
+24,4.0,conflict,0.006768499966710806,0,,1.0,manager / policy owner,OPTIMAL,True,False
+24,5.0,local,5.91999851167202e-05,3,False,1.0,worker; fixed-rota scope,,,
+24,5.0,counterfactual,0.01704269996844232,12,,0.46153846153846156,manager / worker appeal,OPTIMAL,True,
+24,5.0,conflict,0.006608600029721856,0,,1.0,manager / policy owner,OPTIMAL,True,False
+24,6.0,local,5.91999851167202e-05,3,False,1.0,worker; fixed-rota scope,,,
+24,6.0,counterfactual,0.014628499979153275,12,,0.7142857142857143,manager / worker appeal,OPTIMAL,True,
+24,6.0,conflict,0.006413899944163859,0,,1.0,manager / policy owner,OPTIMAL,True,False
+24,7.0,local,5.91999851167202e-05,2,True,1.0,worker; fixed-rota scope,,,
+24,7.0,counterfactual,0.01526060001924634,7,,1.0,manager / worker appeal,OPTIMAL,True,
+24,7.0,conflict,0.0062908000545576215,0,,1.0,manager / policy owner,OPTIMAL,True,False
+24,,breakdown,0.00015870004426687956,24,,1.0,manager / auditor,,True,

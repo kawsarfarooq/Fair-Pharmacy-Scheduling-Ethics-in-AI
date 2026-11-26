@@ -1,0 +1,15 @@
+.venv/
+venv/
+MAS/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+.DS_Store
+Thumbs.db
+*.zip
+real_data_addon/
+data/raw/
+experiments/trustworthy_smoke/
