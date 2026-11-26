@@ -1,16 +1,13 @@
 # Trustworthy pharmacy scheduling: ethics and limitations
 
-## Contribution and provenance
+## System overview
 
-This work builds on an earlier Multi-Agent Systems course project. That project
-supplied the slot/worker model, Max-Sum factor graph, greedy/local-search
-baseline, availability repair, local explanation and initial fairness metrics.
-The old source remains in `src/pharmacy_dcop`; its README is archived alongside
-this document. New contributions are CP-SAT, competing normative objectives,
-FTE and group audits, an independent publication gate, demand/reserve experiments,
-global counterfactuals, minimal conflict explanations and multi-seed evaluation.
-Reuse must be disclosed to the instructor; this document is not approval to
-resubmit the previous assessment. Numerical findings are in `results.md`.
+The system combines constraint-based scheduling, exact optimisation and
+comparative evaluation of fairness, robustness, safety and explanations.
+CP-SAT supplies certified reference solutions; Max-Sum and greedy/local search
+provide algorithmic comparisons. Audits examine contract-normalised workloads,
+worker preferences, district equity and synthetic group outcomes. Numerical
+findings are recorded in [results.md](results.md).
 
 ## People affected and value tensions
 

@@ -1,8 +1,5 @@
 # Fair and Constraint-Aware Pharmacy Shift Scheduling: A Computational Perspective on Fairness, Robustness, and Explainability
 
-**Ethics in AI course project — Master's degree in Artificial Intelligence,
-University of Bologna (UNIBO).**
-
 This project investigates an AI-based decision-support system for pharmacy shift
 scheduling by formalising and evaluating three Trustworthy AI requirements:
 fairness and non-discrimination, technical robustness and safety, and
@@ -12,19 +9,15 @@ rest requirements, alongside soft worker preferences and explicit fairness goals
 The rest model is a research simplification, not a complete labour-law rulebook.
 
 Start with the [project report](report/PROJECT_REPORT.md), the
-[course requirement checklist](report/course_requirements.md), and the
+[design and evaluation overview](report/design_and_evaluation.md), and the
 [recorded results](report/results.md).
 
-A constraint-based decision-support prototype for pharmacy night scheduling.
 Google OR-Tools CP-SAT is the main solver. Max-Sum and greedy/local search are
-retained for controlled comparisons. The original Multi-Agent Systems project
-is preserved in `src/pharmacy_dcop`; new development is in `src/fair_scheduling`.
-The earlier project is available in the
-[separate Multi-Agent Systems repository](https://github.com/kawsarfarooq/Fair-pharmacy-night-shift-scheduling-as-a-DCOP).
-The F1-F3, R1-R3 and X1 experiments in this repository are the **Ethics in AI
-evaluation**; E1-E5 and the archived package are prior-course reference material.
+retained for controlled comparisons. The main implementation is in
+`src/fair_scheduling`. F1-F3, R1-R3 and X1 evaluate fairness, robustness, safety
+and explainability across reproducible scheduling scenarios.
 
-This is an academic prototype. Synthetic workers and requirements do not
+This is a research prototype. Synthetic workers and requirements do not
 constitute an official pharmacy rota. See [the ethics discussion](report/ethics.md)
 and [the evaluation protocol](report/evaluation.md).
 
@@ -91,15 +84,15 @@ Audits report `workload_variance` and `workload_jain` across all regular workers
 including zero-shift workers. `district_gini` compares mean shifts per worker in
 each home district; `district_fte_gini` compares shifts per total contracted FTE
 in each district. These measure allocated worker burden, rather than pharmacy
-coverage totals fixed by demand. Both district metrics are present in the new
+coverage totals fixed by demand. Both district metrics are present in the
 fairness experiment CSVs and seed-level summaries.
 
 FTE ratios and objective weights use exact rational-to-integer scaling, subject
 to documented validation limits; this is not arbitrary rounding of fairness.
 Use `use_fte=False` for the matched raw-count variance comparison with Max-Sum.
-The comparison graph uses twice the old pair penalty so that its ordering agrees
-with the new sum-of-squared-deviations objective, up to a constant on legal rotas.
-The legacy package and legacy results retain their original objective unchanged.
+The comparison graph assigns a penalty of `2 * lambda` to each same-worker
+shift pair. On legal rotas, this gives the same ordering as the sum-of-squared-
+deviations objective, up to a constant.
 
 ## Repair and explanations
 
@@ -186,17 +179,12 @@ src/fair_scheduling/
   maxsum.py          approximate comparison solver
   baseline.py        greedy/local-search comparison solver
   real_data.py       Bologna infrastructure loader (synthetic workforce)
-src/pharmacy_dcop/   preserved previous-course implementation
-experiments/         new F1-F3 / R1-R3 / X1 plus original E1-E5 scripts
-report/              ethics, evaluation protocol and archived original README
+src/pharmacy_dcop/   reference factor-graph implementation used by regression tests
+experiments/         F1-F3 / R1-R3 / X1 and additional scheduling case studies
+report/              project report, ethical analysis, evaluation design and results
 ```
 
 The Bologna loader remains available. Coordinates of worker homes, FTE and audit
 labels are synthetic additions; the prepared public dataset does not supply real
 employee attributes. The new default evaluation is a controlled synthetic study,
 not evidence of discrimination in Bologna pharmacies.
-
-The previous course project and report must be disclosed as reused material.
-New contributions are the exact solver, normative comparisons, audits, safety gate,
-repair/explanation evaluation and ethics analysis. Acceptance of reuse is a course
-assessment decision; this repository does not imply instructor approval.

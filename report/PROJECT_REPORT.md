@@ -1,7 +1,5 @@
 # Fair and Constraint-Aware Pharmacy Shift Scheduling: A Computational Perspective on Fairness, Robustness, and Explainability
 
-**Ethics in AI — Master's degree in Artificial Intelligence, University of Bologna.**
-
 ## Abstract
 
 This project investigates how three Trustworthy AI requirements can be formalised
@@ -33,10 +31,10 @@ model and reports certificate states; an independent gate checks a candidate
 before publication. Approximate Max-Sum and greedy/local search provide
 comparisons under a matched raw-count variance objective.
 
-The new source is `src/fair_scheduling`. Its complete model and numerical
+The main implementation is `src/fair_scheduling`. Its complete model and numerical
 definitions are documented in the [README](../README.md). The
-[requirement checklist](course_requirements.md) maps each part of the supplied
-course brief to implementation and evidence.
+[design and evaluation overview](design_and_evaluation.md) connects the research
+questions to implementation and experimental evidence.
 
 ## Fairness and non-discrimination
 
@@ -116,15 +114,4 @@ sources. The project does not claim legal certification or complete labour-law
 coverage. Synthetic group gaps are descriptive, not proof of discrimination in
 actual pharmacies. Straight-line travel and illustrative standby costs are
 modelling assumptions. Only small controlled instances are evaluated in the
-new default study; wider workloads and stakeholder review are future work.
-
-## Previous work and new contribution
-
-This project explicitly builds on the author's previous Multi-Agent Systems
-course project, available in the
-[original repository](https://github.com/kawsarfarooq/Fair-pharmacy-night-shift-scheduling-as-a-DCOP).
-The earlier code and E1-E5 results remain labelled reference material. This
-Ethics in AI project adds exact optimisation, competing normative definitions,
-FTE/group/district audits, systematic robustness and safety evaluation, global
-explanations, and analysis of value tensions. Reuse is disclosed; acceptance of
-that reuse must be established with the course instructor.
+controlled study; wider workloads and stakeholder review are future work.

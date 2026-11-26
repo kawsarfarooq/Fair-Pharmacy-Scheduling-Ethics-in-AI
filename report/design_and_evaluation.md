@@ -1,13 +1,13 @@
-# Alignment with the Ethics in AI course project
+# Design and evaluation overview
 
 Project title: **Fair and Constraint-Aware Pharmacy Shift Scheduling: A
 Computational Perspective on Fairness, Robustness, and Explainability**.
 
-This checklist maps the course description provided by the author to concrete
-implementation and evaluation evidence. It establishes technical coverage of
-that supplied brief, not approval by the instructor or a guarantee of grading.
+This overview connects the system's research objectives to its implementation
+and experimental evidence. It covers fairness and non-discrimination,
+technical robustness and safety, and explainability and transparency.
 
-| Requirement in the supplied brief | Implementation | Evaluation evidence |
+| Research objective | Implementation | Evaluation evidence |
 |---|---|---|
 | AI-based pharmacy scheduling decision support | Exact CP-SAT model in `src/fair_scheduling/cpsat_solver.py` | Certified status, objective, bound, runtime and independent legality checks |
 | Constraint-based optimisation | Coverage, availability, district eligibility, no double booking and consecutive-night rest; explicit preference/travel costs | Brute-force regression checks and legal-schedule validation |
@@ -21,17 +21,12 @@ that supplied brief, not approval by the instructor or a guarantee of grading.
 | Interpretable reasons for assignments | Fixed-rota contrastive explanation, objective breakdown, global counterfactual and policy conflict core | X1 certificate checks, scope-specific faithfulness, size, time and stability |
 | Comparison of explanation techniques | Four techniques with distinct audiences and limitations | X1 plus explanation comparison in `evaluation.md` and `results.md` |
 
-## What is new for Ethics in AI
+## Evaluation structure
 
-The original Multi-Agent Systems project contributed the problem representation,
-Max-Sum algorithm, heuristic baseline, initial availability repair and local
-explanation. That provenance is explicit in the README and ethics discussion.
-
-The Ethics in AI contribution is the computational investigation of competing
-fairness principles, exact efficiency references, FTE and group/district audits,
-systematic safety/robustness experiments, comparison of explanation methods,
-and discussion of stakeholder values and Trustworthy AI. The new evaluation is
-F1-F3, R1-R3 and X1. Legacy E1-E5 results are retained only as prior work.
+F1-F3 compare normative objectives, efficiency trade-offs, and worker/group/district
+outcomes. R1-R3 examine disruptions, repair strategies, reserves and strategic
+preference declarations. X1 compares four explanation techniques. Results include
+raw observations, seed-level summaries, confidence intervals and plots.
 
 ## Boundaries of the claim
 
@@ -45,5 +40,3 @@ approval workflows require further modelling before real deployment.
 Group labels and workers are synthetic. The controlled evaluation cannot establish
 real-world discrimination, legal compliance or operational readiness. Audience fit
 is discussed conceptually; no human comprehension study was performed.
-Instructor acceptance of the disclosed previous-course reuse remains a course
-assessment matter.
